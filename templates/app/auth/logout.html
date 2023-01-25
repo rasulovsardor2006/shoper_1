@@ -1,0 +1,49 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <!--  This file has been downloaded from bootdey.com @bootdey on twitter -->
+    <!--  All snippets are MIT license http://bootdey.com/license -->
+    <title>Bootstrap Login Form in modal - Bootdey.com</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <link href="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet">
+	<script src="https://netdna.bootstrapcdn.com/bootstrap/3.0.3/js/bootstrap.min.js"></script>
+</head>
+<body>
+<!--login modal-->
+<div id="loginModal" class="modal show" tabindex="-1" role="dialog" aria-hidden="true">
+  <div class="modal-dialog">
+  <div class="modal-content">
+      <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+          <h1 class="text-center">Log out</h1>
+      </div>
+      <div class="modal-body">
+            <div class="form-group">
+               <button class="btn btn-outline-primary"><a href="{% url 'index' %}">Back to index</a></button>
+            </div>
+
+      </div>
+      <div class="modal-footer">
+          <div class="col-md-1accordion2">
+          <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
+    	  </div>
+      </div>
+  </div>
+  </div>
+</div>
+
+<style type="text/css">
+
+body{margin-top:20px;}
+.modal-footer {   border-top: 0px; }
+</style>
+
+<script type="text/javascript">
+
+</script>
+</body>
+</html>
